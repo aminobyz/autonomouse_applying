@@ -1,0 +1,12 @@
+services:
+
+  api-server:
+    build: .
+    container_name: python-api-server
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: always
+    volumes:
+      - .:/code  # For persistent storage if needed

@@ -1,0 +1,22 @@
+[project]
+name = "automat-applying"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "bs4>=0.0.2",
+    "camoufox[geoip]>=0.4.11",
+    "confluent-kafka==2.14.0",
+    "fastapi==0.136.1",
+    "hcaptcha-challenger[camoufox]>=0.19.0",
+    "humanization-playwright>=0.1.2",
+    "patchright==1.60.0",
+    "playwright>=1.60.0",
+    "playwright-captcha>=0.1.5",
+    "pydantic==2.13.4",
+    "pymongo==4.17.0",
+    "requests==2.34.2",
+    "uvicorn==0.47.0",
+    "websockets==16.0",
+]
